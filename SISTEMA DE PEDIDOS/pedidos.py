@@ -1,5 +1,5 @@
 #REGISTRO DE CLIENTES
-
+hola mundo
 def registrar_cliente(clientes, cliente_id, nombre, correo):
     if cliente_id in clientes:
         return clientes, "Error: ID de cliente ya existe"
