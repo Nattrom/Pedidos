@@ -99,9 +99,9 @@ Ejecutar el archivo en Python:
 python sistema_pedidos.py
 👥 Integrantes del equipo
 
-- Natalia Romerin Rincon
-- Jefri Calderin Ortiz
-- Valery Rhenals Reales
+- Valery Rhenals Reales (Implementar registro de clientes, Implementar registro de productos)
+- Natalia Romerin Rincon (Implementar creación de pedidos, Implementar consulta de pedidos)
+- Jefri Calderin Ortiz (Implementar cálculo de ingresos, Implementar módulo de reportes)
 
 📊 Resultado esperado
 
