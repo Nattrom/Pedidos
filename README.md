@@ -56,7 +56,7 @@ python sistema_pedidos.py
 
 👥 Team Members
 
-- vValery Rhenals Reales: Customer and product registration implementation.
+- Valery Rhenals Reales: Customer and product registration implementation.
   
 - Natalia Romerin Rincon: Order creation and inquiry implementation.
 
