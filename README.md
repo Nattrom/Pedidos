@@ -1,118 +1,76 @@
-Sistema de Gestión de Pedidos en Python
-📌 Descripción
+Order Management System in Python
 
-Este proyecto consiste en el desarrollo de un sistema en Python que permite registrar clientes, productos y pedidos, con el fin de llevar un control estructurado de las ventas realizadas durante una jornada.
+📌 Description
 
-El sistema automatiza el cálculo de los totales por pedido y genera un reporte consolidado al finalizar la ejecución.
+This project consists of a Python-based system designed to register customers, products, and orders, ensuring structured control over sales during a workday.
 
-🎯 Objetivo
+The system automates total calculation per order and generates a consolidated report upon completion.
 
-Optimizar el proceso de registro de pedidos, evitando errores manuales y permitiendo obtener información clara sobre:
+🎯 Objective
+To optimize the order registration process, avoiding manual errors and providing clear information regarding:
 
-Clientes registrados
+* Registered customers
+  
+* Products sold
+  
+* Revenue generated
+  
+* Final reports
 
-Productos vendidos
+🧱 Technologies Used
 
-Ingresos generados
+* Python
+  
+* Dictionaries
+  
+* Tuples
+  
+⚙️ System Structure
 
-Reportes finales
+1. Customer Registration: Stores customers in a dictionary containing: ID, Name, and Email.
+   
+2. Product Registration: Products are stored as tuples: (product_id, name, price).
+   
+3. Order Creation: Links Customer, Product, and Quantity. It automatically calculates: total = price * quantity.
+   
+4. Order Inquiry: Displays Customer, Product, Quantity, and Total.
+   
+5. Revenue Calculation: Sums all orders placed.
+   
+6. Final Report: Includes total orders, total revenue, orders per customer, and products sold.
 
-🧱 Tecnologías utilizadas
+🚫 Constraints Met
 
-Python
+* No lists were used.
+  
+* Only dictionaries and tuples were utilized.
+  
+* All functions receive parameters.
+  
+* All functions return values.
+  
+▶️ Execution
 
-Diccionarios
-
-Tuplas
-
-⚙️ Estructura del sistema
-1. Registro de Clientes
-
-Permite almacenar clientes en un diccionario con:
-
-ID
-
-Nombre
-
-Correo
-
-2. Registro de Productos
-
-Los productos se almacenan como tuplas:
-(product_id, nombre, precio)
-
-3. Creación de Pedidos
-
-Relaciona:
-
-Cliente
-
-Producto
-
-Cantidad
-
-Calcula automáticamente:
-total = precio * cantidad
-
-4. Consulta de Pedidos
-
-Muestra:
-
-Cliente
-
-Producto
-
-Cantidad
-
-Total
-
-5. Cálculo de Ingresos
-
-Suma todos los pedidos realizados.
-
-6. Reporte Final
-
-Incluye:
-
-Total de pedidos
-
-Total de ingresos
-
-Pedidos por cliente
-
-Productos vendidos
-
-🚫 Restricciones cumplidas
-
-No se utilizaron listas
-
-Solo se usaron diccionarios y tuplas
-
-Todas las funciones reciben parámetros
-
-Todas las funciones retornan valores
-
-▶️ Ejecución
-
-Ejecutar el archivo en Python:
-
+Run the Python file:
 python sistema_pedidos.py
-👥 Integrantes del equipo
 
-- Valery Rhenals Reales (Implementar registro de clientes, Implementar registro de productos)
-- Natalia Romerin Rincon (Implementar creación de pedidos, Implementar consulta de pedidos)
-- Jefri Calderin Ortiz (Implementar cálculo de ingresos, Implementar módulo de reportes)
+👥 Team Members
 
-📊 Resultado esperado
+- vValery Rhenals Reales: Customer and product registration implementation.
+  
+- Natalia Romerin Rincon: Order creation and inquiry implementation.
 
-El sistema mostrará:
+- Jefri Calderin Ortiz: Revenue calculation and reporting module implementation.
+  
+📊 Expected Result
 
-Lista de pedidos
+The system will display:
 
-Total de ingresos
+-Order list
 
-Reporte final estructurado
+-Total revenue
 
-✅ Conclusión
+-Structured final report
 
-El sistema mejora la organización de pedidos, reduce errores humanos y facilita la toma de decisiones mediante reportes claros.
+✅ Conclusion
+This system improves order organization, reduces human error, and facilitates decision-making through clear reporting.
