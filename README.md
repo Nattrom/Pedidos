@@ -73,4 +73,5 @@ The system will display:
 -Structured final report
 
 ✅ Conclusion
+
 This system improves order organization, reduces human error, and facilitates decision-making through clear reporting.
