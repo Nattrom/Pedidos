@@ -26,13 +26,13 @@ def titulo():
 
 def mostrar_menu():
     opciones = [
-        "1. Registrar cliente",
-        "2. Registrar producto",
-        "3. Crear pedido",
-        "4. Ver pedidos",
-        "5. Ver ingresos",
-        "6. Reporte final",
-        "7. Salir"
+        "1 ► Registrar cliente",
+        "2 ► Registrar producto",
+        "3 ► Crear pedido",
+        "4 ► Ver pedidos",
+        "5 ► Ver ingresos",
+        "6 ► Reporte final",
+        "7 ► Salir"
     ]
 
     for opcion in opciones:
